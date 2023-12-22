@@ -28,11 +28,3 @@ def submit():
     email = request.form.get('email')
     text = request.form.get('text')
     return 'Спасибо за ваш отзыв!'
-
-
-
-
-
-
-if __name__ == "__main__":
-    app.run(debug=True)
